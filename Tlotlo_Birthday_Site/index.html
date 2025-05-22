@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Tlotlo!</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</head>
+<iframe width="0" height="0" src="https://www.youtube.com/embed/rCiBgLOcuKU?autoplay=1&mute=0&loop=1&playlist=rCiBgLOcuKU" 
+        frameborder="0" allow="autoplay"></iframe>
+<body>
+    <div class="floating-container">
+  <img src="pic1.png" class="floating-pic p1" />
+  <img src="pic2.png" class="floating-pic p2" />
+  <img src="pic3.png" class="floating-pic p3" />
+  <img src="pic4.png" class="floating-pic p4" />
+  <img src="pic5.png" class="floating-pic p5" />
+  <img src="pic6.png" class="floating-pic p6" />
+</div>
+
+  <h1>🎉 Happy Birthday Tlotlo! 🎉</h1>
+  <p>You're an amazing friend. Hope you have the best day ever!</p>
+
+  <button onclick="showMessage()">Click for a surprise</button>
+  <p id="hiddenMessage" style="display: none;">🎈 I love you, Ho! 🎂</p>
+
+  <button onclick="generateCard()">Birthday Messages</button>
+<p id="cardMessage" style="font-size: 1.2em; color: #6a1b9a; margin-top: 20px;"></p>
+
+  <div id="game" style="margin-top: 30px;">
+    <p>🎂 Cakes collected: <span id="score">0</span></p>
+    <div id="cake" style="font-size: 2em; cursor: pointer; position: absolute;"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <audio id="birthdaySound" src="birthday.mp3"></audio>
+
+</body>
+
+</html>
